@@ -1,5 +1,5 @@
 #napisz funkcje ktora zwraca sume ale tylko liczb wyzszych niz ustalony limit.
-def adding_numbers(*args, limit = 9):
+def adding_numbers(*args, limit:int=9) ->int:
 
     given = []
 
@@ -9,4 +9,4 @@ def adding_numbers(*args, limit = 9):
 
     return sum(given)
 
-print(adding_numbers(1,5,10,15,20,2,5,6,9,99))
+print(adding_numbers(5,6,10,15, limit=10))
