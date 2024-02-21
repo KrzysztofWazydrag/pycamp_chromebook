@@ -2,8 +2,7 @@
 #Funkcja powinna przyjmowac argumenty nazwane *args oraz ignore_case z wartością domyślną True
 # który będzie oznaczał, czy ignorować wielkość liter podczas zliczania wystąpień.
 
-from collections import Counter
-
+# WERSJA KACPRA
 # def most_common_word(*args, ignore_case = True):
 #     words = {}
 #     for arg in args:
