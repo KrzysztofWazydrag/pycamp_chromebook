@@ -32,3 +32,5 @@ for word, occurrences in result:
     print(f"Najczęściej występujące słowo: '{word}', Ilość wystąpień: {occurrences}")
 
 print(most_common_word('dog', 'cat', 'mouse', 'Dog', 'CAT', 'Cat', ignore_case=True))
+
+#koniec
